@@ -1,0 +1,211 @@
+/*fontes exportadas do Google: */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Herr+Von+Muellerhoff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Open+Sans+Condensed:wght@300&display=swap');
+html * {
+    box-sizing: content-box;
+    margin:0; /*reseta as margens padrão*/
+}
+header{
+/*muda só o cabeçalho*/
+background-image:url("https://images.unsplash.com/photo-1595059168810-577df1032903?");
+background-position: center;
+background-size: cover;
+height:60vh;/*virtual heigth, medida variável*/
+margin:0; /*22px para cima e para baixo e 22 px para cada lado*/
+}
+main{
+/*muda a parte principal do texto*/
+   /*width:300px; /*reduz a área do texto*/
+   /*width:50%; reduz a área do texto*/
+   margin:auto; /*ajusta a posição do texto independentemente o tamanho da janela*/
+   margin: 22px 20px; /*22px para cima e para baixo e 22 px para cada lado*/
+}
+body{
+    font-family:'cormorant+garamond';
+    background-color: #011227;
+    /*background-size:cover;*/
+    /*background-repeat: no-repeat;*/
+    /*height:100vh;*/
+    /*padding:10px 100px 10px 20px ; /*define uma a distância entre o conteúdo de um elemento e suas bordas.*/
+    /*background-repeat: no-repeat;*/
+    /*containers:*/
+    /*width:300px; reduz a área do texto*/
+    /*width:50%; /*reduz a área do texto*/
+    /*margin:auto; ajusta a posição do texto independentemente o tamanho da janela*/
+}
+h1{
+    width:fit-content;
+    color:rgb(231, 184, 231);
+    /*font-family: monospace;*/
+    font-size:50px;
+    /*background-color:purple;    
+    /*cria efeito de sombra: */
+    text-shadow:3px 3px 10px rgb(209, 96, 181);
+}
+.titulos{
+    color:orange;
+    /*font-family:cursive;*/
+    font-size:32px;
+    text-align:left;
+    text-shadow:3px 3px 8px orangered;
+    padding-bottom: 20px;
+}
+p{
+/*    font-family:Calibri;*/
+    font-size:18px;
+    color:white;
+    /*4º item é a transparência: */
+    background-color:rgba(0, 0, 0, 0.3);
+    /*font-weight:bold;*/
+    line-height:30px; /* espaçamento entre linhas */
+    text-align:left; /* alinhamento de texto */
+    /*width:fit-content;*/
+    padding:20px;
+}
+img{
+    max-width: 100%; /*largura máxima*/
+    padding:20px 0px 20px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/*seletores dependentes:*/
+figure img{
+    width:100px;
+    height:20vh;
+    padding:50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    text-decoration: none;
+    color:yellow
+}
+footer{
+    font-family:'cormorant+garamond';
+    font-size:18px;
+    color:white;
+    /*4º item é a transparência: */
+    background-color:rgba(70, 22, 116, 0.1);
+    margin-left:auto;
+    margin-right: auto;
+    line-height:22px; /* espaçamento entre linhas */
+    text-align:justify; /* alinhamento de texto */
+    /*width:300px; /*reduz a área do texto*/
+    /*width:50%; /*reduz a área do texto*/
+    margin:auto; /*ajusta a posição do texto independentemente o tamanho da janela*/
+    padding:10px 0px 10px 30px;
+}
+#principal{ /*id*/
+    color:pink;
+    font-size:20px;
+    line-height:24px;
+    text-align:left;
+    width:50%;
+    padding:0px 0px 0px 30px;   
+    background-color:rgba(0, 0, 0, 0);
+    font-weight:bold;
+}
+.destaque:hover{
+    background-color: rgb(105, 70, 105);
+    color:black;
+    font-weight:bold
+}
+.jets img{
+    max-width: 100%;
+    padding:10px 5px 10px 5px;
+    margin: 1px 1px; /* top/bottom right/left*/
+    border:4px solid rgb(80, 30, 67);
+    border-radius:10px;
+    display: inline-block;
+    align-items: center;
+}
+#tituloprincipal{
+    width:fitinline-block-content;
+    color:rgb(231, 184, 231);
+    font-size:50px;
+    text-shadow:3px 3px 10px rgb(209, 96, 181);
+    padding:30px 30px 30px 30px;
+}
+#sagan{
+    font-family:allura;
+    font-size: 30px;
+    text-align:right;
+    line-height:24px;
+    padding: 20px;
+    background-image:url("https://images.unsplash.com/photo-1537984827217-96d3397ba7ec?");
+    background-position: right;
+    background-size: cover;
+    height:30vh;
+    border:4px solid rgb(80, 30, 67);
+}
+#clean{
+    font-size: 15px;
+    line-height:24px;
+    padding: 5px;
+    background-color:rgba(0, 0, 0, 0);  
+}
+ul{
+    font-size:18px;
+    font-family: dosis;
+    color:white;
+    /*4º item é a transparência: */
+    background-color:rgba(0, 0, 0, 0.3);
+    /*font-weight:bold;*/
+    line-height:30px; /* espaçamento entre linhas */
+    text-align:left; /* alinhamento de texto */
+    /*width:fit-content;*/
+    padding: 20px 50px 20px 50px;
+    list-style-type: square;    
+  }
+  /*classe de texto negrito itálico:*/
+  .negrito{
+      font-weight: bold;
+      font-style: italic;
+  }
+  .grid{
+      display:grid;
+      /*grid-template-columns: 1fr 1fr;*/
+      /*grid-template-columns: repeat(2,1fr);*/
+      grid-template-columns: 300px 4fr 1fr;
+      gap:10px;
+  }
+  .card{
+    background-color:rgba(0, 0, 0, 0.3);
+    padding:10px;
+    object-fit: cover;
+  }
+  section.card img{
+    object-fit: cover;
+    height:500px;
+    width:100%;
+    object-position: center;
+    border-radius: 8px;
+  }
+  section.card p{
+    display:inline-block;
+    margin: 0;
+    padding:10px 80px 10px 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: dosis;
+    color:white;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0);    
+  }
+  section.card a{
+      color:white;
+  }
+.destaque2:hover{
+    color:orange;
+    text-shadow:3px 3px 8px orangered;
+  }
+  section.card2 {
+    background-image:url("g2.jpg");
+    background-position: center;
+    background-size: cover;
+    height:150vh;/*virtual heigth, medida variável*/
+    margin:0;
+  }
